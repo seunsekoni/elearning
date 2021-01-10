@@ -1,0 +1,48 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Statistics",
+    "slug": "statistics"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 2,
+    "subject": 1,
+    "title": "Learn Javascript",
+    "slug": "learn-javascript",
+    "overview": "Javascript is a language of the web.",
+    "created": "2021-01-10T07:41:07.391Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "What is Javascript",
+    "description": "Javscript  was created by a man called ...."
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "Javascript Types",
+    "description": "Javascript Types are Boolean, Array, etc"
+  }
+}
+]
